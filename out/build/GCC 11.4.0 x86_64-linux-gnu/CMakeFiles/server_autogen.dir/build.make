@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emory/serverRepo
+CMAKE_SOURCE_DIR = /home/ubuntu/serverRepo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
+CMAKE_BINARY_DIR = "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
 
 # Utility rule file for server_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/server_autogen: server_autogen/timestamp
 
 server_autogen/timestamp: /usr/lib/qt6/libexec/moc
 server_autogen/timestamp: CMakeFiles/server_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
-	/usr/bin/cmake -E cmake_autogen "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir/AutogenInfo.json" Debug
-	/usr/bin/cmake -E touch "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target server"
+	/usr/bin/cmake -E cmake_autogen "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir/AutogenInfo.json" Debug
+	/usr/bin/cmake -E touch "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/timestamp"
 
 server_autogen: CMakeFiles/server_autogen
 server_autogen: server_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/server_autogen.dir/clean:
 .PHONY : CMakeFiles/server_autogen.dir/clean
 
 CMakeFiles/server_autogen.dir/depend:
-	cd "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/emory/serverRepo /home/emory/serverRepo "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/serverRepo /home/ubuntu/serverRepo "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu" "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/server_autogen.dir/depend
 

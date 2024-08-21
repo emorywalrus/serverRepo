@@ -43,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-server-Debug-f545a36865c2933618d4.json",
+					"jsonFile" : "target-server-Debug-90dffcba69545e2f0679.json",
 					"name" : "server",
 					"projectIndex" : 0
 				},
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu",
-		"source" : "/home/emory/serverRepo"
+		"build" : "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu",
+		"source" : "/home/ubuntu/serverRepo"
 	},
 	"version" : 
 	{

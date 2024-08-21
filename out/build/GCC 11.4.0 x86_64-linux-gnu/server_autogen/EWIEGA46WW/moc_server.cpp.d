@@ -1,5 +1,5 @@
-/home/emory/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/moc_server.cpp: /home/emory/serverRepo/server.h \
-  /home/emory/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/moc_predefs.h \
+/home/ubuntu/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/moc_server.cpp: /home/ubuntu/serverRepo/server.h \
+  /home/ubuntu/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

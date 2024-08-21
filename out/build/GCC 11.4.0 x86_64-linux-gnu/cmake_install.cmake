@@ -1,8 +1,8 @@
-# Install script for directory: /home/emory/serverRepo
+# Install script for directory: /home/ubuntu/serverRepo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/emory/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

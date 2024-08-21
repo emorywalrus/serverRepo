@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_NETWORK_LIB
 
-CXX_INCLUDES = -I"/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork
+CXX_INCLUDES = -I"/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/include" -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork
 
 CXX_FLAGS = -g -fPIC
 

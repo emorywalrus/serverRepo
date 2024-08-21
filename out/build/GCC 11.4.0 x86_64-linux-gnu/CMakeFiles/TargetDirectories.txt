@@ -1,5 +1,5 @@
-/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server.dir
-/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/edit_cache.dir
-/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
-/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen_timestamp_deps.dir
-/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir
+/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server.dir
+/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/edit_cache.dir
+/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen_timestamp_deps.dir
+/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/server_autogen.dir

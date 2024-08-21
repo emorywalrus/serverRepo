@@ -1,5 +1,5 @@
-CMakeFiles/server.dir/main.cpp.o: /home/emory/serverRepo/main.cpp \
- /usr/include/stdc-predef.h /home/emory/serverRepo/server.h \
+CMakeFiles/server.dir/main.cpp.o: /home/ubuntu/serverRepo/main.cpp \
+ /usr/include/stdc-predef.h /home/ubuntu/serverRepo/server.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCoreDepends \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \

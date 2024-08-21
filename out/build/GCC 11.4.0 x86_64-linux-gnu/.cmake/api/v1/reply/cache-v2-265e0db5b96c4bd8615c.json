@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
+			"value" : "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -547,7 +547,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/pkgRedirects"
+			"value" : "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/emory/serverRepo"
+			"value" : "/home/ubuntu/serverRepo"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -823,7 +823,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/emory/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu"
+			"value" : "/home/ubuntu/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -1084,18 +1084,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_PREFIX_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : "gcc_64"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -3959,7 +3947,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/emory/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu"
+			"value" : "/home/ubuntu/serverRepo/out/install/GCC 11.4.0 x86_64-linux-gnu"
 		},
 		{
 			"name" : "server_BINARY_DIR",
@@ -3971,7 +3959,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
+			"value" : "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu"
 		},
 		{
 			"name" : "server_IS_TOP_LEVEL",
@@ -3995,7 +3983,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emory/serverRepo"
+			"value" : "/home/ubuntu/serverRepo"
 		}
 	],
 	"kind" : "cache",

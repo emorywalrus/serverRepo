@@ -92,7 +92,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/emory/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/include"
+					"path" : "/home/ubuntu/serverRepo/out/build/GCC 11.4.0 x86_64-linux-gnu/server_autogen/include"
 				},
 				{
 					"backtrace" : 6,

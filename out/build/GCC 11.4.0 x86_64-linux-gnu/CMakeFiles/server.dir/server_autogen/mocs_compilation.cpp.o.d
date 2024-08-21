@@ -1,7 +1,7 @@
 CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
- /home/emory/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/mocs_compilation.cpp \
+ /home/ubuntu/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/emory/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/moc_server.cpp \
+ /home/ubuntu/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/moc_server.cpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -116,7 +116,7 @@ CMakeFiles/server.dir/server_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/emory/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/../../../../../server.h \
+ /home/ubuntu/serverRepo/out/build/GCC\ 11.4.0\ x86_64-linux-gnu/server_autogen/EWIEGA46WW/../../../../../server.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCore \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtCoreDepends \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
