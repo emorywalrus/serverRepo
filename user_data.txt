@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /home/ubuntu
+git clone https://github.com/emorywalrus/serverRepo.git
+sudo chmod +x ./serverRepo/setup.sh
