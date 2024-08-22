@@ -11,28 +11,28 @@ public:
     LogServer() {
         server = new QTcpServer(this);
         logFile = new QFile("command_log.txt", this);
-
+        logFile->open(QIODevice::ReadWrite | QIODevice::Append);
         connect(server, &QTcpServer::newConnection, this, &LogServer::newConnection);
         if (server->listen(QHostAddress::Any, 4726)) {
             std::cout << "Listening\n";
         }
-
-        logFile->open(QIODevice::ReadWrite | QIODevice::Append);
+        
     }
 public slots:
     void newConnection() {
         QTcpSocket* clientSocket = server->nextPendingConnection();
         connect(clientSocket, &QTcpSocket::readyRead, this, &LogServer::newMessage);
-        std::cout << "connected\n";
+        connect(clientSocket, &QTcpSocket::disconnected, clientSocket, &QTcpSocket::deleteLater);
     }
     void newMessage() {
         QTcpSocket* clientSocket = qobject_cast<QTcpSocket*>(sender());
-        QByteArray message = clientSocket->readAll();
-        QByteArray client_ip = clientSocket->peerAddress().toString().toUtf8();
-        logFile->write(client_ip);
-        logFile->write(" {\n");
-        logFile->write(message);
-        logFile->write("\n}\n");
-        std::cout << "message saved\n";
+        QTextStream logStream(logFile);
+
+        logStream << clientSocket->peerAddress().toString();
+        logStream << " {\n";
+        while (clientSocket->bytesAvailable()) {
+            logStream << clientSocket->readAll();
+        }
+        logStream << "\n}\n";
     }
 };
